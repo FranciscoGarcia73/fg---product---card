@@ -20,12 +20,12 @@ initialValues={{
                 maxCount: 10,
             }} >
     {({ reset, maxCount, isMaxCountReached, count, increaseBy }) => (
-    <>
-    <ProductImage />
-    <ProductTitle />
-    <ProductBotton />
-</>
-)}
+        <>
+            <ProductImage />
+            <ProductTitle />
+            <ProductBotton />
+        </>
+    )}
 </ProductCard>
 
 ```
